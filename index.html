@@ -12,13 +12,9 @@
   <h1>
     <center>Movie Zone - Latest Movies</center>
   </h1>
-
-  
-    <div class="marqueeformat">
-      <marquee>Now Showing</marquee>
-    </div>
-  
-
+  <div class="marqueeformat">
+    <marquee>Now Showing</marquee>
+  </div>
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -55,18 +51,26 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  
   <div class="row center-block">
-  <div class="col-md-4">
- <button class="btn btn-success" id="grey">Buy Ticket</button>
+    <div class="wrapper">
+    <div class="col-md-4">
+      <button class="btn btn-success" id="grey">Buy Ticket</button>
+    </div>
+    <div class="col-md-4">
+      <button class="btn btn-warning" id="purple">Read More</button>
+    </div>
+    <div class="col-md-4">
+      <button class="btn btn-danger" id="blue">Trailer</button>
+    </div>
   </div>
-  <div class="col-md-4">
- <button class="btn btn-warning" id="purple">Read More</button>
   </div>
-  <div class="col-md-4">
- <button class="btn btn-danger" id="blue">Trailer</button>
+  <div class="input-group" "col-md-4">
+    <span for="your email">Enter your email Here to Receive the Latest Movie Updates Straight To Your Inbox</label>
+    <input id="email" class="form-control" type="text" placeholder="your email">
+    <button type="button" class="btn btn-primary btn-md">Subscribe!</button>
   </div>
- </div>
+  </div>
+</div>
 
-  </div>  
+  </div>
 </body>

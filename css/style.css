@@ -72,3 +72,22 @@
     font-size: 40px;
     color: lightskyblue;
 }
+
+.subscribe-button {
+    margin-top: ;
+}
+
+.input-group {
+    padding: 3%;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 5%;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    
+}
